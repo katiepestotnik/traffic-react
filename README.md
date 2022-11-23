@@ -1,4 +1,4 @@
-# React Traffic Light
+# React Traffic Light 🚦
 
 Objectives:
 
