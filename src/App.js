@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-
+import Bulb from './components/Bulb';
 export default function App() {
   const [colorObj, setColorObj] = useState({
     red: '',
@@ -38,9 +38,9 @@ export default function App() {
           </h2>
         </div>
         <div id="traffic-lights">
-          <div style={{backgroundColor:colorObj.red}} className="bulb"></div>
-          <div style={{backgroundColor:colorObj.yellow}} className="bulb"></div>
-          <div style={{backgroundColor:colorObj.green}} className="bulb"></div>
+          <Bulb color={colorObj.red} />
+          <Bulb color={colorObj.yellow} />
+          <Bulb color={colorObj.green} />
         </div>
       </section>
     </div>
