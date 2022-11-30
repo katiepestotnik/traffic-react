@@ -1,25 +1,15 @@
 import React, {useState} from 'react';
 import Bulb from './components/Bulb';
 export default function App() {
-  const [colorObj, setColorObj] = useState({
-    red: '',
-    yellow: '',
-    green: ''
-  })
+  const [colorObj, setColorObj] = useState({})
   const handleClick = (e) => {
     if (e.target.id === 'stop') setColorObj({
       red: 'red',
-      yellow: '',
-      green: ''
     })
     else if (e.target.id === 'slow') setColorObj({
-      red: '',
       yellow: 'yellow',
-      green: ''
     })
     else setColorObj({
-      red: '',
-      yellow: '',
       green: 'green'
     })
   }
