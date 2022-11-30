@@ -44,3 +44,12 @@ section {
   margin: 25px auto;
   transition: background 500ms;
 }
+.red{
+  background-color: red;
+}
+.yellow{
+  background-color: yellow
+}
+.green{
+  background-color: green
+}
